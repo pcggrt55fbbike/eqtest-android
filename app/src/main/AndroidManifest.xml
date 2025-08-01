@@ -4,7 +4,9 @@
     <application
         android:label="EQTest"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".EQTestActivity">
+        <activity
+            android:name=".EQTestActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
@@ -14,3 +16,4 @@
 
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
 </manifest>
+
